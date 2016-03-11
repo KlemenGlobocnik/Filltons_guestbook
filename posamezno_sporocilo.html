@@ -1,0 +1,12 @@
+{% extends "baseguestbook.html" %}
+
+{% block title %}Posamezno sporocilo{% endblock title %}
+
+{% block specifika %}
+    <h1>Podatki sporočila</h1>
+
+    <p>Ime osebe: {{ sporocilo.ime }}</p>
+    <p>Priimek osebe: {{ sporocilo.priimek }}</p>
+    <p>Email osebe: {{ sporocilo.email }}</p>
+    <p>Sporocilo osebe: {{ sporocilo.sporocilo }}</p>
+{% endblock specifika %}

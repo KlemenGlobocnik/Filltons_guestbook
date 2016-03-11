@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link type="text/css" rel="stylesheet" href="/assets/css/style.css"/>
+		<title>{% block title %}{% endblock title %}</title>
+	</head>
+    <body>
+    <header ID="header">Filltons Guestbook</header>
+     <div>
+     <ul>
+         <a href="/"><button class="myButton" id="button1">Input page</button></a>
+         <a href="/AllGuests"><button class="myButton">List of Guests</button></a>
+     </ul>
+    </div>
+    {% block specifika %}{% endblock specifika %}
+    </body>
+<html>
